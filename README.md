@@ -2,8 +2,8 @@
 A tool to edit many file formats between the Wii U and the Nintendo Switch. 
 
 ## Information
-If the tool does not open, right click the zip and hit Unblock.
-Ensure that you have .NET 4.6 or newer installed.
+If the tool does not open, right click the zip and hit Unblock!
+Ensure that you have .NET 4.6 or newer installed, too.
 
 ## Changelog
 
