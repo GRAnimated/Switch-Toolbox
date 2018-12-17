@@ -1,7 +1,43 @@
 # Switch-Toolbox
-A tool to edit many formats of Nintendo Switch and some Wii U. 
+A tool to edit many file formats between the Wii U and the Nintendo Switch. 
+
+## Information
+If the tool does not open, right click the zip and hit Unblock.
+Ensure that you have .NET 4.6 or newer installed.
 
 ## Changelog
+
+v0.8.5.2 - v0.8.63
+
+- Fixed exporting models (static for now)
+- Fixed some WiI U bfres not culling properly.
+- Fix importing DDS files
+- Fix Wii U textures saving with wrong channel type.
+- Show properties for wii u textures.
+- Fix texture importer not importing all textures at once.
+- Add proper point filtering for Wii U.
+- Add toggle for mesh visibility in treeview.
+- Fix some crashes resaving a bfres that was already saved.
+- Play animations properly on wii u.
+- Update importing textures properly.
+- Fix shader colors being incorrectly used.
+- Add proper placeholder textures for wii u if missing to prevent crashes.
+- Add basic textures if unused for the imported model (if materials are used)
+- Fix wii u material params saving some invalid data
+- Fix texture refs being saved for wii u.
+- Added option to disable importing new materials when replacing an fmdl. Note this will make
+- all objects mapped to the first material and texture mapping will not be automated.
+- Batch export and replacing of bfmats.
+- Fixed wii u importing with wrong face primitive type (caused wire frame visual effect).
+- Basic transform tool (right click fmdl, transform)
+- Fixed rotation import setting where normals would break.
+- Fixed DDS being read by program after saved
+- Add support for .dds2 extension
+- Quick bug fixes for importing textures.
+- Auto updater.
+- Fix DDS exporting for DX10 formats.
+- More Misc fixes.
+
 
 v0.8.5.1
  - Basic .nutexb dds injection. Must be same width/height and format due to .arc size limitations atm!
